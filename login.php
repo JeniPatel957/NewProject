@@ -22,6 +22,7 @@ $orderres = mysqli_query($ordersql);
 $orderrow = mysqli_fetch_assoc($orderres);
 $_SESSION['SESS_ORDERNUM'] = $orderrow['id'];
 header("Location: " . $config_basedir);
+	echo 'jenipatel957@gmail.com';
 }
 else
 {
