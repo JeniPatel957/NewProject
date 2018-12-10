@@ -62,3 +62,12 @@ echo "<strong>Incorrect username/password</strong>";
 }
 require("footer.php");
 ?>
+<?php
+if($_POST['textbo']=='')
+{
+	echo 'please enter user name';
+}
+if($_POST['passBox']=='')
+{
+	echo 'Please Enter Password';
+}
